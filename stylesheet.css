@@ -1,0 +1,81 @@
+body {
+    background-image: url("background.png");
+    background-size: cover;
+}
+
+.home {
+    background-image: none;
+    background-color: black;
+}
+
+a {
+  text-decoration-line: none;
+
+}
+
+a:hover {
+color: green;
+
+}
+
+
+a.l:hover{
+
+  color: black;
+  font-size: 35px;
+
+}
+
+
+
+.l {
+    color: white;
+    text-decoration-style: solid;
+    font-size: 40px;
+    font-family: fantasy, monospace;
+}
+
+#i1 {
+    padding-left: 325px;
+    padding-top: 250px;
+}
+
+#i2 {
+  padding-left: 550px;
+  top: 500;
+}
+
+
+#menubar {
+background-color: black;
+color: purple;
+text-align: center;
+text-decoration-style: solid;
+font-size: 25px;
+position: fixed;
+z-index:1;
+top: 0;
+left: 0;
+width: 100%;
+height: 50px;
+
+  }
+
+#feed {
+  background-image: url("feed.png");
+  background-blend-mode: lighten;
+  background-size: 200px;
+  background-repeat: repeat;
+  width: 100%;
+  height: 1000px;
+  padding-top: 100px;
+  }
+
+
+img {
+width: 400px;
+height: 400px;
+margin: 0 auto;
+}
+
+/*  */
